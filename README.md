@@ -56,20 +56,8 @@ $ python3 main.py --do_train --do_eval
 | [Recursive NN](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0190926)                                    | 73.50        |
 | [RHCNN](https://www.mdpi.com/1099-4300/21/1/37)                                                                              | 75.48        |
 | [SMGCN](https://www.aclweb.org/anthology/D19-6204.pdf)                                                                       | 76.64        |
-| _BIO-R-BERT_                                                                                                                 | **82.66**    |
-
-## Comparing the effect of pretrained language models
-
-Using R-BERT architecture, with different pretrained weights
-
-|                          | F1 Micro (%) |
-| ------------------------ | ------------ |
-| Random Init              | 47.04        |
-| bert-base-cased          | 80.62        |
-| scibert-scivocab-uncased | 81.30        |
-| biobert_v1.0_pubmed_pmc  | 82.30        |
-| biobert_v1.1_pubmed      | 82.66**      |
-| biobert_v1.1_pubmed GAUSS| **83.35**    |
+| _BIO-R-BERT_                                                                                                                 | 82.66        |
+| _BIO-R-BERTGaus                                                                                                              | **83.35**    |
 
 ## References
 
