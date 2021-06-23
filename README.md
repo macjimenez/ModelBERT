@@ -1,9 +1,5 @@
 # BIO-R-BERT
 
-**Relation Extraction** task on DDI 2013 Bio dataset
-
-- Using [BioBERT](https://github.com/naver/biobert-pretrained) for pretrained model
-- Using [R-BERT](https://arxiv.org/abs/1905.08284) for relation extraction modeling
 
 ## Model
 
@@ -72,7 +68,8 @@ Using R-BERT architecture, with different pretrained weights
 | bert-base-cased          | 80.62        |
 | scibert-scivocab-uncased | 81.30        |
 | biobert_v1.0_pubmed_pmc  | 82.30        |
-| biobert_v1.1_pubmed      | **82.66**    |
+| biobert_v1.1_pubmed      | 82.66**      |
+| biobert_v1.1_pubmed GAUSS| **83.35**    |
 
 ## References
 
